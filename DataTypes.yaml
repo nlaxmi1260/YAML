@@ -1,0 +1,10 @@
+Person:
+  Name: "Naga Lakshmi" #string
+  Age: 34 #integer
+  Working: false #Boolean: true , false
+  Interst_Field: null  #null
+  Salary: 198.99  #float
+  #Explicit Data Types
+  Hobbies: !!str 12345
+  PhoneNumber: !!int "8765432108"
+

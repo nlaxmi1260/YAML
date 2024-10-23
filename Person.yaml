@@ -1,0 +1,26 @@
+# This is the basic syntax of yaml file
+# To Show Key: Value pair
+Name: Naga Lakshmi
+Age: 34
+
+#This is the syntax of a list
+Address:
+    - Bangalore
+    - Karnataka
+    - Guntur
+    - Marripalem
+
+ # Dictionaries (Mappings): Key-value pairs.
+Person:
+  Name: Naga
+  Age: 34
+
+# Nested Structures: You can combine lists and dictionaries. 
+Person:
+  Name: Naga
+  Age: 34
+Address:
+    - Bangalore
+    - Karnataka
+    - Guntur
+    - Marripalem     

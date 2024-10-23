@@ -1,0 +1,53 @@
+# This is a comment
+name: Naga
+age: 34
+Address:
+  - flat no 305,icon ,bangalore
+  - marripalem
+  - Guntur
+  - Karnataka
+
+DataTypes:
+  title: "This is Naga"
+  age: 23
+  active: true
+  Optional: null
+  boolean: true
+
+List:
+  - Naga
+  - Dinnu
+  - Gagana
+
+Dictionaries:
+  name: naga
+  age: 34
+
+#combine list and dictionaries
+company:
+  name: "TechCorp"
+  departments:
+    - name: IT
+      employees: 50
+    - name: HR
+      employees: 10
+
+# Anchors and Aliases
+# Anchors (`&`) allow you to define reusable parts, while aliases (`*`) reference them. This helps in avoiding duplication. 
+default: &default
+ type: admin
+ active: true
+
+user1:
+  <<: *default
+  name: Alice
+
+user2:
+  <<: *default
+  name: Bob  
+
+  # Explicit Data Types**
+# Normally, YAML automatically interprets the data type, but you can explicitly    declare types using tags like `!!str`, `!!int`, `!!float`. 
+string_value: !!str 12345
+int_value: !!int "12345"  
+  

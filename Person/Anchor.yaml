@@ -1,0 +1,23 @@
+Children: &Children
+  name1: Dinesh
+  name2: Gagana
+Address: &Address
+  Home: Bangalore 
+  Office: USA
+Persons:
+  - Name: "Mallikarjun"
+    Age: 45
+    Gender: "Male"
+    Working: True 
+    Salary: 45000.90
+    Addresses: *Address
+    Status: "Married"
+    Children: *Children
+  - Name: "Lakshmi"
+    Age: 35
+    Gender: "Female"
+    Working: True 
+    Salary: 45000.90
+    Addresses: *Address
+    Status: "Married"
+    Children: *Children

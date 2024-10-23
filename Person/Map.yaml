@@ -1,0 +1,12 @@
+Person:
+  Name: "Mallikarjun"
+  Age: 45
+  Working: True 
+  Salary: 45000.90
+  Addresses:
+    HomeAddress: "Bangalore"
+    OfficeAddress: "USA"
+  Status: "Married"
+  Children:
+    Child1: Dinesh
+    Chile2: Gagana

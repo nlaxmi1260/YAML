@@ -1,0 +1,25 @@
+Persons:
+  - Name: "Mallikarjun"
+    Age: 45
+    Gender: "Male"
+    Working: True 
+    Salary: 45000.90
+    Addresses:
+      - HomeAddress: "Bangalore"
+      - OfficeAddress: "USA"
+    Status: "Married"
+    Children:
+      - Child1: Dinesh
+      - Chile2: Gagana
+  - Name: "Lakshmi"
+    Age: 35
+    Gender: "Female"
+    Working: True 
+    Salary: 45000.90
+    Addresses:
+      - HomeAddress: "Bangalore"
+      - OfficeAddress: "USA"
+    Status: "Married"
+    Children:
+      - Child1: Dinesh
+      - Chile2: Gagana

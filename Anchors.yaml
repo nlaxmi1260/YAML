@@ -1,0 +1,11 @@
+Children: &Children
+  name1: Dinesh
+  name2: Gagana
+
+  user1:
+    <<: *Children
+    Interst: sports
+
+  user22:
+    <<: *Children
+    age: 12   

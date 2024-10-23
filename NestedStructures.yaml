@@ -1,0 +1,10 @@
+# Nested structures are used to combine list and Dictonaries
+Company:
+  name: "Intuite"
+  departments:
+    - name: IT
+      employees: 50
+      location: Bangalore
+    - name: HR
+      employees: 10
+      location: Guntur

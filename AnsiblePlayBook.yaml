@@ -1,0 +1,8 @@
+---
+- name: Install nginx on Web servers
+  hosts: Webservers
+  tasks:
+    - name: Install Nginx
+      apt:
+        name: nginx
+        state: present
